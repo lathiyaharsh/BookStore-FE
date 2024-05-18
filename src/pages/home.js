@@ -1057,8 +1057,8 @@ const Home = () => {
                                 modelNumber: 17,
                               };
                             });
-                            handleAction(17, "noOfPage");
-                            setSortName("noOfPage");
+                            handleAction(17, "author");
+                            setSortName("author");
                             setDataOrder(!dataOrder);
                           }}
                         >
@@ -1086,8 +1086,8 @@ const Home = () => {
                                 modelNumber: 17,
                               };
                             });
-                            handleAction(17, "author");
-                            setSortName("author");
+                            handleAction(17, "noOfPage");
+                            setSortName("noOfPage");
                             setDataOrder(!dataOrder);
                           }}
                         >
